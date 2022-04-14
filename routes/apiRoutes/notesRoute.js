@@ -1,8 +1,7 @@
 const router  = require('express').Router();
-const notes = require('../../db/db.json');
-const {validateInputData,createNewNote, findById} = require('../../lib/notes');
+let notes = require('../../db/db.json');
+const {validateInputData,createNewNote, findById, deleteById} = require('../../lib/notes');
 const uuid = require("uuid");
-const req = require('express/lib/request');
 
 router.get('/notes', (req, res)=>{
     let results = notes;
@@ -35,6 +34,13 @@ router.post('/notes', (req, res) => {
         res.status(400).send('Invalid note entry');
     }
 
+})
+
+router.delete('/notes/:id', (req, res) => {
+
+    let results = deleteById(req.params.id, notes);
+    notes = results;
+    res.json(results);
 })
 
 module.exports = router;

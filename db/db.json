@@ -1,27 +1,7 @@
 [
   {
-    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4qed",
-    "title": "Test Title",
-    "text": "Test text"
-  },
-  {
-    "title": "Trying again",
-    "text": "Do it",
-    "id": "67850779-0ee6-4566-b732-13b1ffc8e986"
-  },
-  {
-    "title": "sd",
-    "text": "sd",
-    "id": "0ffec66f-08ba-4892-ab07-e4a3485c0a59"
-  },
-  {
-    "title": "sd",
-    "text": "sd",
-    "id": "457f3d6b-78f9-4122-aa7b-b46d96d41edf"
-  },
-  {
-    "title": "launch program",
-    "text": "Save program",
-    "id": "086db55c-f20d-4966-9105-b264d9dcef91"
+    "title": "Adding new note",
+    "text": "New note",
+    "id": "bde2f1f6-09ca-4cca-a2d0-494841985ee5"
   }
 ]
