@@ -13,15 +13,12 @@ const app = express();
 //Middleware setup. Parse all incoming string.
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+//Pull up static page
 app.use(express.static(path.join(__dirname+'/public')));
 
 //Route requests to api and html pages
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
-
-//Pull up static page
-
-//set port to list to
-
+//set port to list to parameter set in header.
 app.listen(PORT, () =>{console.log(`API server now on port ${PORT}`)});
