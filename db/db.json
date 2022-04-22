@@ -1,7 +1,27 @@
 [
   {
-    "title": "Adding new note",
-    "text": "New note",
-    "id": "bde2f1f6-09ca-4cca-a2d0-494841985ee5"
+    "title": "Call bank on Friday",
+    "text": "Call bank on Friday",
+    "id": "319f5861-8328-4bcf-bb4c-47c4ea142ff6"
+  },
+  {
+    "title": "Reschedule Delivery",
+    "text": "Reschedule Delivery",
+    "id": "9973a06a-453a-408f-a60e-fc67ea55f090"
+  },
+  {
+    "title": "Finish Payroll",
+    "text": "Finish Payroll",
+    "id": "0b8892dd-9a5a-4088-9403-259a572ea383"
+  },
+  {
+    "title": "Check in with Clients",
+    "text": "Check in with Clients",
+    "id": "3e27e8c5-9f2a-4c02-b68e-adf51f59543c"
+  },
+  {
+    "title": "Client Lunch on Thursday",
+    "text": "Client Lunch on Thursday",
+    "id": "63d4cefc-f6f9-476e-8ba4-35347bc5f36c"
   }
 ]

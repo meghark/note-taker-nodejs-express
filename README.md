@@ -23,27 +23,18 @@ the note contents to the right. To add a new note again click on the add note bu
 To run the command line application.
 - Clone the repository
 - Run npm install
-- Run node server 
-    This will start the api server on the configured port.
-- Launch the application using the url.
+
 
 ## Usage
 
-Run node index.js from the project directory to run the application.
-Provide user inputs for the questions.
-Check console for any errors.
-If the program runs without errors, the dist folder will have the index.html with team details.
-Use as required.
+- Run node server from the project directory to run the application.
+    This will start the api server on the configured port.
+- Launch the application using the url.
+    http://localhost:3002/
+
 
 ## Command line app screenshot
-![Screeshot of command line application](./images/commandline.PNG)
-![Screenshot of a sample generated team page](./images/webpage.PNG)
-
-
-## Link to demo video
-
-Use the following video to access a short demo on the application.
-https://drive.google.com/file/d/1_Et6xJM8Q_nTdPFCCfTaMVnKTYb0VSsB/view
+![Screenshot of a sample generated team page](./public/images/notetakerscreenshot.PNG.PNG)
 
 
 # Questions
