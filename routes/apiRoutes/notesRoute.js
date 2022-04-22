@@ -36,6 +36,7 @@ router.post('/notes', (req, res) => {
 
 })
 
+//verify if the original array modification pattern is correct
 router.delete('/notes/:id', (req, res) => {
 
     let results = deleteById(req.params.id, notes);
