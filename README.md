@@ -30,8 +30,9 @@ To run the command line application.
 - Run 'node server' from the project directory to run the application.
     This will start the api server on the configured port.
 - Launch the application using the url.
-    http://localhost:3002/
-    https://calm-harbor-95281.herokuapp.com/ 
+    For local run : http://localhost:3002/
+    App is also deployed on heroku:
+    https://calm-harbor-95281.herokuapp.com/
 
 
 ## Command line app screenshot
