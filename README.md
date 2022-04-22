@@ -31,6 +31,7 @@ To run the command line application.
     This will start the api server on the configured port.
 - Launch the application using the url.
     http://localhost:3002/
+    https://calm-harbor-95281.herokuapp.com/ 
 
 
 ## Command line app screenshot
